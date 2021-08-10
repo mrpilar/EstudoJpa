@@ -2,10 +2,6 @@ package teste;
 
 import java.util.ArrayList;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-
 import dao.ClienteDAO;
 import dao.ClienteDAOImpl;
 import entidade.Cliente;
@@ -24,7 +20,7 @@ public class CadastroCliente {
 		
 		cliente.setListaContatos(new ArrayList<Contato>());
 		
-		cliente.setCpf("5678");
+		cliente.setCpf("12345");
 		cliente.setIdade(25);
 		cliente.setInteresse("jornais");
 		cliente.setNome("Renato Pascoal");

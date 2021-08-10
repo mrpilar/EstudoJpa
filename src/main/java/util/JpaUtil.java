@@ -5,8 +5,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 /**
- * 
- * @author Cleiton
  *
  *	A classe JPAUtil tem a funcionalidade de disponibilizar as EntityManager(conex�es com o banco de dados)
  *Tamb�m � uma classe sington, s� vai existir uma instancia dessa classe no projeto todo 
